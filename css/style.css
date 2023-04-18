@@ -1,0 +1,95 @@
+body {
+    font-family: 'Besley', serif;
+    background-color: #f3cdcd5c;
+}
+
+a:hover {
+    color: grey;
+}
+
+
+/* HEADING SECTION */
+#heading {
+    height: 12rem;
+    border-radius: 0 0 2rem 2rem;
+    padding-top: 3rem;
+    background-color: white;
+}
+
+.navbar {
+    margin: 0 2rem;
+}
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #BB2525;
+}
+
+.navbar-brand:hover {
+    color: #962323;
+}
+
+.r-icon {
+    margin: 0 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-settings {
+        display: none;
+    }
+}
+
+/* SUB HEADING SECTION */
+
+.sub-heading-section {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.sub-heading-item {
+    margin: 0 5rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+}
+
+@media only screen and (max-width: 1350px) {
+    .sub-heading-item {
+        margin: 1rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .sub-heading-item {
+        display: none;
+    }
+}
+
+.main-banner {
+    display: block;
+    position: relative;
+    margin: 2rem auto;
+    width: 95%;
+    border-radius: 20px;
+}
+
+/* PRODUCT CATEGORIES */
+
+#product-categories {
+    margin: 0 5rem;
+    text-align: center;
+}
+
+.product-categories-img {
+    width: 400px;
+    height: 300px;
+    margin: 3rem 5rem;
+    border-radius: 20px;
+}
